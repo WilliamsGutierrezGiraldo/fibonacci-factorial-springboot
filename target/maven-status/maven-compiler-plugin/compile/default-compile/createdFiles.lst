@@ -1,0 +1,4 @@
+com\test\wagg\rest\OperationsController.class
+com\test\wagg\service\impl\OperationsServiceImpl.class
+com\test\wagg\WaggApplication.class
+com\test\wagg\service\OperationsService.class

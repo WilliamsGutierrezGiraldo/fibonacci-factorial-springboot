@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Resultado</title>
+	<link href="../static/css/bootstrap.css" rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+	<div class="container">
+		<br>
+		<h2>
+			Calculadora Fibonacci / Factorial
+		</h2>
+		<div class="container mt-3">
+			<h3>
+				Resultado works!!
+			</h3>
+			<span th:text="${operation}" />
+			<span th:text="${result}" />
+		</div>
+	</div>
+</body>
+</html>
